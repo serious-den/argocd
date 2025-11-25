@@ -1,0 +1,4 @@
+stagings:
+  - name: tmp-1
+    clusterName: default
+    regionName: region1
