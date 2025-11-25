@@ -1,4 +1,4 @@
 stagings:
   - name: tmp-1
-    clusterName: default
+    clusterName: in-cluster
     regionName: region1
