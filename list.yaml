@@ -2,3 +2,11 @@ stagings:
   - name: tmp-1
     clusterName: in-cluster
     regionName: region1
+
+sync:
+  retry:
+    limit: 5
+    backoff:
+      duration: 5s
+      factor: 2
+      maxDuration: 3m
